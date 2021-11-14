@@ -13,10 +13,10 @@ app=Flask(__name__)
 app.secret_key="dont"
 
 #for connection to database.
-app.config['MYSQL_DATABASE_HOST']='sriki007.mysql.pythonanywhere-services.com'
-app.config['MYSQL_DATABASE_USER']='sriki007'
-app.config['MYSQL_DATABASE_PASSWORD']='kalyan455'
-app.config['MYSQL_DATABASE_DB']='sriki007$iot-smart-plug'
+app.config['MYSQL_DATABASE_HOST']='host'
+app.config['MYSQL_DATABASE_USER']='user'
+app.config['MYSQL_DATABASE_PASSWORD']='password'
+app.config['MYSQL_DATABASE_DB']='dbname'
 mysql=MySQL(app)
 
 ############################PAGE ACCESS METHODS########################
